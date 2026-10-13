@@ -1,0 +1,20 @@
+{
+  "name": "monday-sdk-js-types-repro",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:workaround": "tsc -p tsconfig.workaround.json && vite build",
+    "check:typings": "tsc -p type-tests",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  },
+  "dependencies": {
+    "monday-sdk-js": "1.0.0-beta"
+  }
+}
