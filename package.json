@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "build:workaround": "tsc -p tsconfig.workaround.json && vite build",
-    "check:typings": "tsc -p type-tests",
+    "check:context": "tsc -p type-tests/context",
+    "check:typings": "tsc -p type-tests/silent",
+    "check:imports:bundler": "tsc -p type-tests/imports/tsconfig.bundler.json",
+    "check:imports:nodenext": "tsc -p type-tests/imports/tsconfig.nodenext.json",
     "preview": "vite preview"
   },
   "devDependencies": {

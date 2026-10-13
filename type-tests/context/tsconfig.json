@@ -1,5 +1,5 @@
 {
-  "extends": "../tsconfig.json",
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
     "verbatimModuleSyntax": false,
     "erasableSyntaxOnly": false
